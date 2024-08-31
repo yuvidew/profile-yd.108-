@@ -7,6 +7,9 @@ const projectSchema = new mongoose.Schema({
     description :{
         type : String
     },
+    category : {
+        type : String,
+    },
     skills : [String],
     img : {
         type : String
